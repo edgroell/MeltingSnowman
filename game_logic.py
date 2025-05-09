@@ -113,5 +113,6 @@ def play_game() -> None:
 
             if "_" not in display_word:
                 print(">>Congratulations, you saved the snowman!<<")
+                print("\n*******************************************")
                 prompt_replay()
                 break
